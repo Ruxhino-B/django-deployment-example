@@ -1,0 +1,13 @@
+/* table {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border: 10px solid black;
+} */
+td {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border: 5px solid black;
+  font-size: 100px;
+}

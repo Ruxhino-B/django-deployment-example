@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Django Level 2 Challenge</title>
+  </head>
+  <body>
+    <h1>Ky eshte Django level 2 Challange</h1>
+    <h2>Kjo eshte lista me emrat e studentave</h2>
+    <div class="djangolist">
+      {% if name_records %}
+        {% for name in name_records %}
+          <ol>
+            <li>User Info</li>
+            <ul>
+              <li>Fisrt Name:{{ name.first_name }}</li>
+              <li>Secont Name:{{ name.last_name }}</li>
+              <li>Email:{{ name.email }}</li>
+            </ul>
+          </ol>
+          {% endfor %}
+        {% else %}
+          <p>Nuk ka asnje liste.</p>
+        {% endif %}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+/* ky eshte nje koment*/
+/* ky eshte nje kkoment bere me ctrl+/*/
+
+
+/* standati per krijimin e CSS eshte */
+/* selected tag{
+  property: value;
+} */
+
+h1{
+  color: blue;
+}
+li{
+  color: rgb(244, 83, 66);
+}
+p{
+  color: #f4e541;
+}
+h4{
+  color: rgba(240, 8, 66, 0.5);
+}
